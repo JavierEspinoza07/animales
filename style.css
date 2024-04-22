@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.titulo{
+    text-align: start;
+    padding-left: 100px;
+    padding-top: 20px;
+    color: rgba(17, 17, 122, 0.774);
+    font-size: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 50px;
+}
+.list{
+    padding: 20px;
+}
+.list a{
+    text-decoration: none;
+    color: rgba(105, 100, 100, 0.651);
+}
+.linkn:hover{
+    color: orange;
+}
+.caja-img{
+    width: 1370px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.caja-img ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 10s infinite alternate ease-in-out;
+}
+.caja-img li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.caja-img img{
+    width: 100%;
+}
+.formulario1{
+    background-color: orange;
+    display: flex;
+    width: 400px;
+    height: min-content;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+@keyframes slide{
+    0% {margin-left: 0;}
+    33.33% {margin-left: 0;}
+    40% {margin-left: -100%;}
+    73.33% {margin-left: -100%;}
+    80% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+
+}
+.texto{
+    position: absolute;
+    text-align: start;
+    top: 120px;
+    left: 50px;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000000
+}
+.subtitu{
+    font-size: 20px;
+}
+.formulario1tcaj{
+    background-color:aliceblue;
+    width: 28%;
+    margin: 0px auto;
+    margin-top: 200px;
+    padding: 20px;
+    border: 1px  gray;
+    color: rgba(0, 0, 0, 0.411);
+    box-shadow: 0px 0px 8px gray;
+    height: 400px;
+}
+.titulof1{
+    text-align: center;
+    padding: 10px 10px 20px 0px;
+    color: rgba(17, 17, 122, 0.774);
+}
+.formulario1t{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    margin: 10px;
+}
+.but{
+    color: white;
+    width: 100%;
+    background-color: rgb(120, 192, 13);
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.requisitos{
+    background-color: orange;
+    padding: 150px;
+    margin-top: 200px;
+    color: aliceblue;
+}
+.requih2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+.requih3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.requistos-caja{
+    background: url(img/fondo.png);
+    color: blue;
+    width: 700px;
+    height: 460px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+.header-formu2{
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subheader-formu2{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.inputf2{
+    border: none;
+    color: blue;
+}
+::placeholder{
+    color: rgb(61, 61, 248);
+}
+.Preguntas-F{
+    background-color: orange;
+    margin-top: 200px;
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.lorem{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+.Consultas{
+    background-color: orange;
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+}
+.formulario3caj{
+    background-color: aliceblue;
+    width: 38%;
+    height: 300px;
+    margin: 0px auto;
+    border: 1px solid rgba(94, 89, 89, 0.438);
+    padding: 30px 10px;
+    box-shadow: 0px 0px 8px gray;
+    margin-bottom: 100px;
+}
+.but2{
+    background-color: gray;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.but3{
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+.botones{
+    margin-top: 10px;
+}
+.solicitudes{
+    background-color: orange;
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.perro{
+    margin: auto;
+    width: 20%;
+}
+.cajaf{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.titulocajicon{
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+}
+.cajagran{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}
+.cajaicon{
+    width: 400px;
+    height: 180px;
+    margin: 0px 2px;
+    box-shadow: 0px 0px 8px gray;
+    text-align: center;
+}
+.tamicon{
+    color: orange;
+    font-size: 50px;
+}
+
+.iconos{
+    width: 400px;
+    margin: auto;
+    padding: 50px;
+    font-size: 50px;
+}
+.facebook{
+    margin: 20px;
+}
+.pinterest{
+    margin: 20px;
+}
+.instagram{
+    margin: 20px;
+}
